@@ -9,10 +9,10 @@
  * 
  */
 UCLASS()
-class MYPROJECT_API AMyProjectGameModeBase : public AGameModeBase
+class MYPROJECT_API AFPSProjectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+	virtual void StartPlay() override;
 	
 	
 	
