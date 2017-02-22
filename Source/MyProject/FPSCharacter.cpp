@@ -85,10 +85,12 @@ void AFPSCharacter::MoveRight(float Value)
 
 void AFPSCharacter::StartJump()
 {
-	bPressedJump = true;
+	//bPressedJump = true;
+	Jump();
 }
 
 void AFPSCharacter::StopJump()
 {
-	bPressedJump = false;
+	//bPressedJump = false;
+	StopJumping();
 }
